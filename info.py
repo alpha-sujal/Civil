@@ -48,9 +48,9 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Aryan829235")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '9b894b170b14182a6f44e9a4cbd2683feb822939c')
+VERIFY = bool(environ.get('VERIFY', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omnifly.in.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '26bf7d7b32404e7449c200f5668e8494a5e97e3b')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'ziplinker.net')
 SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '9b894b170b14182a6f44e9a4cbd2683feb822939')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
